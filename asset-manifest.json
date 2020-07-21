@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/sometime-i-write/static/css/main.5f361e03.chunk.css",
-    "main.js": "/sometime-i-write/static/js/main.2f533014.chunk.js",
-    "main.js.map": "/sometime-i-write/static/js/main.2f533014.chunk.js.map",
-    "runtime-main.js": "/sometime-i-write/static/js/runtime-main.6974419c.js",
-    "runtime-main.js.map": "/sometime-i-write/static/js/runtime-main.6974419c.js.map",
-    "static/js/2.d2d89135.chunk.js": "/sometime-i-write/static/js/2.d2d89135.chunk.js",
-    "static/js/2.d2d89135.chunk.js.map": "/sometime-i-write/static/js/2.d2d89135.chunk.js.map",
-    "index.html": "/sometime-i-write/index.html",
-    "precache-manifest.3cc70e4548cc1274515341eeca5a140a.js": "/sometime-i-write/precache-manifest.3cc70e4548cc1274515341eeca5a140a.js",
-    "service-worker.js": "/sometime-i-write/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/sometime-i-write/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.d2d89135.chunk.js.LICENSE.txt": "/sometime-i-write/static/js/2.d2d89135.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/sometime-i-write/static/media/logo.5d5d9eef.svg"
+    "main.css": "/sometimeIWrite/static/css/main.5f361e03.chunk.css",
+    "main.js": "/sometimeIWrite/static/js/main.c7458aee.chunk.js",
+    "main.js.map": "/sometimeIWrite/static/js/main.c7458aee.chunk.js.map",
+    "runtime-main.js": "/sometimeIWrite/static/js/runtime-main.bbc6c042.js",
+    "runtime-main.js.map": "/sometimeIWrite/static/js/runtime-main.bbc6c042.js.map",
+    "static/js/2.d2d89135.chunk.js": "/sometimeIWrite/static/js/2.d2d89135.chunk.js",
+    "static/js/2.d2d89135.chunk.js.map": "/sometimeIWrite/static/js/2.d2d89135.chunk.js.map",
+    "index.html": "/sometimeIWrite/index.html",
+    "precache-manifest.e77776b224fd9da7d00187a3d47e83b9.js": "/sometimeIWrite/precache-manifest.e77776b224fd9da7d00187a3d47e83b9.js",
+    "service-worker.js": "/sometimeIWrite/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/sometimeIWrite/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d2d89135.chunk.js.LICENSE.txt": "/sometimeIWrite/static/js/2.d2d89135.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/sometimeIWrite/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6974419c.js",
+    "static/js/runtime-main.bbc6c042.js",
     "static/js/2.d2d89135.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2f533014.chunk.js"
+    "static/js/main.c7458aee.chunk.js"
   ]
 }
