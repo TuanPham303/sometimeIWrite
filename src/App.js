@@ -3,12 +3,13 @@ import withStyles from 'react-jss';
 import PropTypes from 'prop-types';
 
 import styles from './App.style';
+import { Border } from './components';
 
 function App({ classes }) {
   return (
-    <div className={classes.container}>
-      hello
-    </div>
+    <>
+      <Border />
+    </>
   );
 }
 
