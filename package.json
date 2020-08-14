@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-jss": "^10.3.0",
+    "react-markdown": "^4.3.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -35,7 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://tuanpham303.github.io/sometimeIWrite",
+  "homepage": "https://tuanpham303.github.io/sometimesIWrite",
   "devDependencies": {
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.0",

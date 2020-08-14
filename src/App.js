@@ -2,12 +2,16 @@ import React from 'react';
 import withStyles from 'react-jss';
 import PropTypes from 'prop-types';
 
-import styles from './App.style';
-import { Border } from './components';
+import appStyles from './App.style';
+import { Border, NavBar, Grid } from './components';
 
 function App({ classes }) {
   return (
     <>
+      <div className={classes.wrapper}>
+        <NavBar />
+        {/* <Grid /> */}
+      </div>
       <Border />
     </>
   );
@@ -21,4 +25,4 @@ App.defaultProps = {
   classes: {},
 };
 
-export default withStyles(styles)(App);
+export default withStyles(appStyles)(App);
