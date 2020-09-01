@@ -10,7 +10,7 @@ function App({ classes }) {
     <>
       <div className={classes.wrapper}>
         <NavBar />
-        {/* <Grid /> */}
+        <Grid />
       </div>
       <Border />
     </>
