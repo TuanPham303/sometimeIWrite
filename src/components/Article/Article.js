@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import withStyles from 'react-jss';
+import ReactMarkdown from 'react-markdown';
+
+
 
 function Article({ title }) {
+  const file = require(`../../articles/${title}/${title}.md`);
+  const [content, setContent] = useState('');
+
+  useEffect(() => {
+    fetch(file)
+      .then((res) => res.text())
+      .then((data) => {
+        setContent(data);
+      });
+  }, [file]);
+
   return (
-    <div>{ title }</div>
+    <ReactMarkdown
+      source={content}
+    />
   );
 }
 

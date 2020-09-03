@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import React, { useState, useEffect } from 'react';
 import withStyles from 'react-jss';
 import ReactMarkdown from 'react-markdown';
@@ -5,7 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import previewCardStyles from './PreviewCard.style';
 
 function PreviewCard({ name, classes }) {
-  // eslint-disable-next-line global-require
+  // eslint-disable-next-line import/no-dynamic-require
   const file = require(`../../articles/${name}/${name}.md`);
   const [header, setHeader] = useState('');
   const [preview, setPreview] = useState('');
