@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import withStyles from 'react-jss';
 import ReactMarkdown from 'react-markdown';
-
-
 
 function Article({ title }) {
   const file = require(`../../articles/${title}/${title}.md`);
@@ -17,9 +14,7 @@ function Article({ title }) {
   }, [file]);
 
   return (
-    <ReactMarkdown
-      source={content}
-    />
+    <ReactMarkdown source={content} />
   );
 }
 
